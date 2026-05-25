@@ -1,0 +1,16 @@
+---
+---
+
+@import "minima";
+
+.site-title::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url('{{ "/assets/images/logo.png" | relative_url }}');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
