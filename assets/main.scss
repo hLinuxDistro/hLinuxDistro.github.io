@@ -1,6 +1,5 @@
 ---
 ---
-
 @import "minima";
 
 .site-title::before {
@@ -13,4 +12,53 @@
   width: 24px;
   height: 24px;
   margin-right: 8px;
+}
+
+#latest {
+  float: right;
+  background: #FFD133;
+  box-shadow: -0.1em -0.3em 0.5em #B39223 inset;
+  color: #4C3D00;
+  border-radius: 0.5em;
+  margin: 0 0 1em 2em;
+  padding: 0.5em 1em 0.75em 1em;
+  font-family: sans-serif;
+  width: max-content;
+}
+
+#latest_label {
+  font-size: 1.1em;
+  text-align: right;
+  margin-bottom: 0.2em;
+}
+
+.latest_content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+
+#latest_link {
+  font-size: 2.75em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#latest_link > a {
+  color: #4C3D00;
+  text-decoration: none;
+}
+
+#latest_button a {
+  display: block;
+}
+
+#latest_button img {
+  display: block;
+  opacity: 0.7;
+}
+
+#latest_button img:hover {
+  opacity: 1;
 }
